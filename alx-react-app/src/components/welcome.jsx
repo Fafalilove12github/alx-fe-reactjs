@@ -1,11 +1,14 @@
-function WelcomeMessage() {
+// src/Welcome.js
+import React from 'react';
+import WelcomeMessage from './components/WelcomeMessage'; // Adjust the path if necessary
+
+const Welcome = () => {
     return (
         <div>
-            <h1>Hello everyone, I am learning React at ALX!</h1>
-            <p>This is a simple JSX component.</p>
-            <p>I am learning about JSX!</p>
+            <h1>Welcome to My Application</h1>
+            <WelcomeMessage />
         </div>
     );
-}
+};
 
-export default WelcomeMessage;
+export default Welcome;
